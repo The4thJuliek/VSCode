@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">La traduction française de la <foreign xml:lang="lat">Chirurgia magna</foreign> de Gui de Chauliac d'après le manuscrit Montpellier, Bibliothèque interuniversitaire, Section de Médecine,  H 184.</title>
+<title type="sub">Test éditorial fait à partir du seul feuillet 37rv.</title>
+<author>Anonyme</author>
+<editor>
+<persName xml:id="VM"><forename>Viola </forename> <surname>Mariotti</surname></persName>
+<roleName>Docteure en philologie romane</roleName> et <roleName> chercheuse post-doctorale pour le projet ALMA (Heidelberger Akademie der Wissenschaften ; Université de Heidelberg - Romanisches Seminar).</roleName>
+</editor>
+<principal>
+<persName xml:id="ST"><forename>Sabine</forename> <surname>Tittel</surname>, <roleName>chercheuse en philologie romane (Heidelberger Akademie der Wissenschaften ; Université de Heidelberg - Romanisches Seminar)</roleName> et <roleName>directrice du projet ALMA - Equipe scientifique de Heidelberg (ancien français).</roleName></persName>
+</principal>
+<respStmt>
+<resp>
+Membre du projet ALMA - Equipe scientifique de Heidelberg (ancien français)
+</resp>
+<persName xml:id="RM"><forename>Ragini</forename> <surname>Menon</surname>, <roleName>doctorante en humanités numérique dans le cadre du projet ALMA (dir. <ref corresp="#ST">S. Tittel</ref>).</roleName></persName>
+</respStmt>
+<respStmt>
+<resp>
+Directrice du projet ALMA - Equipe scientifique de Regensburg (ancien occitan)
+</resp>
+<persName xml:id="MS"><forename>Maria</forename> <surname>Selig</surname>, <roleName>professeure de philologie romane à l'Université de Regenburg</roleName>.</persName>
+</respStmt>
+<respStmt>
+<resp>
+Directeur du projet ALMA - Equipe scientifique de Sarrebrücken (ancien italien)
+</resp>
+<name><persName xml:id="EP"><forename>Elton</forename> <surname>Prifti</surname>, <roleName>professeur de philologie romane à l'Université de Sarrebrücken</roleName>.</persName>
+</name>
+</respStmt>
+<respStmt>
+<resp>
+Directeur du projet ALMA - Equipe scientifique de Sarrebrücken (ancien italien)
+</resp>
+<name><persName xml:id="WS"><forename>Wolfgang</forename> <surname>Schweickard</surname>, <roleName>professeur emérite de philologie romane à l'Université de Sarrebrücken</roleName>.</persName>
+</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<p/>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="montpellier_bibliotheque_interuniversitaire_section_de_médecine_H_184"> 
+<msIdentifier>
+<settlement>Montpellier</settlement>
+<institution xml:id="montpellier_bibliotheque_interuniversitaire">
+<orgName>Bibliothèque interuniversitaire</orgName>
+</institution>
+<repository>Section de Médecine</repository>
+<idno>H 184</idno>
+<altIdentifier>
+<idno type="ark"><!-- revoir : ajouter le lien vers le ms. numérisé --></idno>
+</altIdentifier>
+<altIdentifier>
+<idno type="facs"><!-- revoir : ajouter le lien vers le ms. numérisé --></idno>
+</altIdentifier>
+</msIdentifier>
+<head>Montpellier, Bibliothèque interuniversitaire, Section de Médecine, H 184
+<origDate>D'après le <ref corresp="https://www.deaf-page.de/bibl/bib99g.php#GuiChaul">DEAFBIbl</ref>, le manuscrit date des années <date notBefore="1434" cert="high">1434</date>-<date notAfter="1466" cert="high">1466</date>.</origDate>
+</head>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support>Parchemin de bonne qualité, manuscrit de luxe... <!-- completer pour la description du codex --></support>
+<extent>
+<num></num>
+</extent>
+<foliation></foliation>
+<collation>
+<p>
+<formula></formula>
+</p>
+</collation>
+</supportDesc>
+<layoutDesc>
+<layout columns="2">Réglure à la mine de plomb. Copié sur deux colonnes, le manuscrit compte le plus souvent 35 lignes par page.
+<dimensions type="layout">
+<height unit="mm"></height>
+<width unit="mm"></width>
+</dimensions>
+</layout>
+</layoutDesc>
+</objectDesc>
+<handDesc hands="1" cert="unknown"><!--  revoir : à vérifier of course ! :-) -->
+<handNote>
+<p> Le feuillet 37rv est copié par une seule main qui emploie une écriture <foreign xml:lang="lat">textualis</foreign> méridionale.</p>
+</handNote>
+</handDesc>
+<decoDesc>
+<p></p>
+</decoDesc>
+<bindingDesc>
+<binding>
+<p></p>
+</binding>
+</bindingDesc>
+</physDesc>
+<history>
+<origin>
+<origPlace>Sud de la France</origPlace>
+<origDate>D'après le <ref corresp="https://www.deaf-page.de/bibl/bib99g.php#GuiChaul">DEAFBIbl</ref>, le manuscrit date des années <date notBefore="1434" cert="high">1434</date>-<date notAfter="1466" cert="high">1466</date>.</origDate>
+</origin>
+</history>
+</msDesc>
+<list xml:id="editions_chirurgia_magna">
+<head>Editions modernes partielles et intégrales du traité <title><foreign xml:lang="lat">De chirurgia magna</foreign></title> de <persName>Gui de Chauliac</persName> en ancien français et en latin.</head>
+<item xml:id="tittel"> <bibl>Die <title>Anathomie</title> in der <title>Grande Chirurgie</title> des Gui de Chauliac. Wort-un sachgeschichtliche Untersuchungen und Edition, ed. Sabine Tittel, Tübingen, Max Niemeyer Verlag, 2004.<note resp="#VM">L'édition de S. Tittel est centrée sur le premier traité de la <title>Chirurgia magna</title>, édité d'après le même manucrit que nous transcrivons pour l'édition présente (Montpellier, Bibliothèque de médecine, H 184, fols. 14va-36va).</note></bibl></item>
+<item xml:id="keil"><bibl>Chirurgia magna Guidonis de Gauliac. Mit einem Vorwort zum Neudruck von Gundolf Keil, Darmstad, Wissenschaftliche Buchgesellschaft, 1976. <note resp="#VM">L'édition de Keil donne le texte complet de l'oeuvre et se fonde sur l'imprimé lyonnais 1584.</note></bibl></item>
+</list>
+</sourceDesc>
+</fileDesc>
+    <profileDesc>
+        <creation>
+            <date>2022-12-03</date>
+        </creation>
+        <langUsage>
+            <language ident="fr" usage="50">Français.</language>
+        </langUsage>
+        <langUsage>
+            <language ident="en" usage="50">English.</language>
+        </langUsage>
+    </profileDesc>
+<encodingDesc>
+<p> Notre encodage s'aligne sur les schémas XML-TEI réalisés à l'Ecole nationale des chartes par <bibl>F. Glorieux</bibl> et <bibl>V. Jolivet </bibl>et documentés par <bibl>O. Guyotjeannin</bibl> et <bibl>O. Canteaut</bibl>. Bien que ces schémas aient été prévus pour les actes documentaires, ils peuvent également être utilisés pour les textes littéraires. Lorsque nous en avons ressenti le besoin, nous nous sommes également éloignés desdits schémas en concevant nous-mêmes des solutions d'encodage customisé mais toujours dans le respect des normes prévues par les <title>Guidelines</title> de la communauté TEI. Une ODD restrictive avec une documentation détaillée permet de comprendre quels ont été les choix d'encodage du projet ALMA.</p>
+</encodingDesc>
+<revisionDesc>
+<change when="2022-12-05" resp="#VM">5 décembre 2022<ref corresp="#VM">VM</ref> envoie à <ref corresp="#ST">ST</ref> le tout premier test d'édition réalisé dans le cadre du projet ALMA. Il s'agit plus précisément d'un test d'édition réalisé à partir du fol. 37rv du ms. Montpellier, Bibliothèque interuniversitaire, section de Médecine, H 184 (début du livre II de la trad. fr. de la <title>Chirurgia Magna</title> de <persName>Gui de Chauliac</persName>).  Au-delà de la transcription, le test a comporté la mise en place complète du présent fichier XML-TEI et la formalisation d'une première version des principes d'édition et d'encodage. Il a été réalisé par <ref corresp="#VM">VM</ref>  dans les jours de samedi 3 décembre 2022 (4 heures de travail), dimanche 4 décembre 2022 (8 heures de travail) et lundi 5 décembre 2022 (8 heures de travail). <ref corresp="#ST">ST</ref> envoie à <ref corresp="#VM">VM</ref> une version du fichier revue jusqu'à la ligne 78.</change>
+<change when="2022-12-06" resp="#VM">6 décembre 2022<ref corresp="#VM">VM</ref> intègre les modifications demandée et continue à augmenter et revoir le fichier. Elle réalise notamment le profileDesc et le econding desc (où elle déplace les principes d'encodage qui étaient dans le front). Elle copie dans un fichier Word les critères d'édition pour les partager avec le reste de l'équipe.</change>
+</revisionDesc>
+</teiHeader>
+<text xml:id="chirurgia_magna_trad_fr_montpellier_bibliotheque_interuniversitaire_section_de_medecine_184_H_fol_37">
+<front>
+<div xml:id="apparat_critique">
+<head>Apparat critique</head>
+<p>Notre édition présente un apparat critique mixte :
+<list>
+<item>L'apparat est négatif dans la presque totalité des cas, lorsque la leçon retenue est l'originale mais nous avons ajouté une note critique renvoyant au texte-source latin. Cela est fait pour mettre en avant un lieu sémantiquement différent, comme dans le cas d'une innovation de la version française qui ne serait pas fautive mais tout de même très éloignée du texte-source latin.</item>
+<item>L'apparat est en revanche positif en cas de leçon manifestement fautive ou lacunaire. Nous avons dès lors systématiquement précisé à qui appartient la responsabilité scientifique de la leçon refaite <foreign xml:lang="lat">ex ingenio</foreign> qui figure dans le texte.</item>
+</list>
+</p>
+ </div>
+<div xml:id="principes_edition">
+<head>Principes d'édition</head> <!-- N.B. : pour les critères, cf. version Word mise à jour -->
+<div xml:id="introduction">
+<head>Introduction</head>
+<p>La toilette du texte s'aligne sur les critères établis par <bibl> Françoise Vielliard , Olivier Guyotjeannin , <title>Conseils pour l’édition des textes médiévaux</title>, vol. I, « Conseils généraux », Paris, École Nationale des Chartes, 2014.</bibl> Nous avons également consulté l’article de <bibl>Mario Roques, <title>« Établissement de règles pratiques pour l’édition des anciens textes français et provençaux »</title></bibl>, <title>Romania</title> 52, 1926, p.243-249, et l’ouvrage d’<bibl>Alfred Foulet et Mary Blakely Speer, <title>On Editing Old French Texts</title>,The Regent Press of Kansas, 1979</bibl>.</p>
+</div>
+<div xml:id="graphies">
+<head><label>1.</label>Graphies</head>
+<div xml:id="graphies_1.1">
+<head><label>1.1.</label>Allophones</head>
+<p>Notre édition régularise l'expression graphique des allophones en s'alignant sur l’usage du français contemporain :
+<list>
+<item>Le graphème ‹i› court a été transcrit par ‹i› pour la voyelle /i/, par ‹j› pour la consonne affriquée pré-palatale /dž/ ;</item>
+<item>La graphie ‹u› ayant la valeur phonétique de la consonne fricative labio-dentale /v/ a été transcrite par le graphème ‹v›.</item></list>
+</p>
+<p>Nous avons transcrit par ‹i› le i plongeant final (trait graphique typique du Sud de la France), sauf dans les chiffres, conservé car dans ce cas il n'a pas valeur vocalique (cf. § 1.5)</p>
+</div>
+<div xml:id="graphies_1.2">
+<head><label>1.2.</label>Emploi de ‹y›</head>
+    <p>Le graphème ‹y› ayant la valeur phonétique de /i/ a été conservée. Il concurrence souvent les ‹i› plongeants en fin de mot.</p>
+</div>
+<div xml:id="graphies_1.3">
+<head><label>1.3.</label>Emploi de ‹x› final à valeur de ‹us›</head>
+<p>Nous avons reproduit la graphie finale ‹x› ayant valeur de ‹us›.</p>
+</div>
+<div xml:id="graphies_1.4">
+<head><label>1.4.</label>Emploi de ‹z› final à valeur de ‹m›</head>
+<p>Nous avons transcrit par le graphème ‹m› le ‹z› en fin de mot exprimant la consonne occlusive bilabiale.</p>
+</div>
+<div xml:id="graphies_1.5">
+<head><label>1.5.</label>Chiffres</head>
+<p>Nous avons transcrit les chiffres romains tels quels, en reproduisant les points qui les séparent des autres mots et avec un dernier ‹i› plongeant.</p>
+</div>
+</div>
+<div xml:id="abreviations">
+<head><label>2.</label>Abréviations</head>
+<p>Les abréviations ont été systématiquement résolues . Leur résolution s’est alignée sur les graphies attestées dans en toutes lettres dans le texte. Dans le cas d'alternance graphique (<hi rend="i">p</hi> barré horizontalement <hi rend="i">per</hi> / <hi rend="i">par</hi> etc.), nous avons développé d'après la graphie en toutes lettres la plus courante.</p>
+<div xml:id="abreviations_2.1">
+<head ><label>2.1.</label>Signes tachygraphiques (sur la ligne et suscrits)</head> 
+<p>Parmi les abréviations les plus fréquentes nous signalons :
+<list>
+<item>7 barré = <hi rend="i">et</hi> ;</item>
+<item>7 suscrit = <hi rend="i">er</hi> / <hi rend="i">ier</hi> ; </item>
+<item>9 = <hi rend="i">com</hi> / <hi rend="i">con</hi> ; </item>
+<item>9 suscrit = <hi rend="i">us</hi> ; </item>
+<item><hi rend="i">p</hi> barré horizontalement = <hi rend="i">per</hi> / <hi rend="i">par</hi> ; </item>
+<item><hi rend="i">p</hi> barré obliquement = <hi rend="i">pro</hi> ;</item>
+<item><hi rend="i">p</hi> surmonté d’un tilde = <hi rend="i">pre</hi> ;</item>
+<item><hi rend="i">q</hi> surmonté d’un tilde horizontal (et parfois vertical) = <hi rend="i">que</hi> ;</item>
+<item><hi rend="i">q</hi> barré obliquement = <hi rend="i">qu'an</hi>.</item>
+</list>
+</p>
+<p>Le tilde est employé  pour signaler la présence d'une consonne nasale (<hi rend="i">m</hi> ou <hi rend="i">n</hi>) ou un groupe se composant d'une voyelle suivie d'une consonne nasale (<hi rend="i">an</hi>, <hi rend="i">en</hi> et <hi rend="i">on</hi>).</p>
+</div>
+<div xml:id="abreviations_2.2">
+<head><label>2.2.</label>Abréviations par lettre suscrite</head>
+<p>Les abréviaition par lettre suscrite ont été systématiquement développées.  En cas de flottement graphique, nous avons développée l'abréviation en nous alignant sur la forme scribale la plus attestée en toute lettres.</p>
+</div>
+<div xml:id="abreviations_2.3">
+    <head><label>2.3.</label>Abréviations par contraction</head><!-- Codi fr -->
+<p>Les mots abrégés par contraction sont très rares. Le Copiste 1 s'en sert essentiellement pour la P6 du présent de l'indicatif du verbe <hi rend="i">estre</hi>, graphiée par <hi rend="i">st</hi> surmonté d'un tilde horizontal (la résolution adoptée sur la base des formes pleines a été <hi rend="i">sunt</hi>); pour l'adverbe <hi rend="i">molt</hi>, graphié <hi rend="i">mlt</hi> surmonté d'un tilde vertical, pour lequel la forme pleine n'est jamais attestée ; pour l'indéfini <hi rend="i">tous</hi>, graphié <hi rend="i">ts</hi> surmonté d'un tilde horizontal. Les seules abréviations par contraction attestées chez les copistes méridionaux sont l'adverbe <hi rend="i">molt</hi> graphié <hi rend="i">mlt</hi> surmonté d'un tilde vertical chez le Copiste 2 et la P6 <hi rend="i">sunt</hi> graphiée <hi rend="i">st</hi> surmontée d'un tilde vertical chez le Copiste 3.</p>
+</div>
+<div xml:id="abreviations_2.4">
+<head><label>2.4.</label>Abréviations des unités monétaires</head> <!-- Question : il n'y en a pas dans notre texte, mais bon dans les textes de droit on en trouvera sans aucun doute !!! j'ai donc repris le paragraphe tel quel des critères d'édition de mon Codi français -->
+<p>Les unités monétaires sont abrégées par contraction, par suspension et par lettre suscrite. Elles ont été développées par leur forme francisée en dépit de l'abréviation évoquant parfois la graphie latine. L'abréviation <hi rend="i">lb.</hi> a été développée par la forme <hi rend="i">livres</hi>, l'abréviation <hi rend="i">d.</hi> par <hi rend="i">denier(s)</hi>, les abréviations <hi rend="i">s.</hi> barré obliquement et <hi rend="i">sols</hi> avec le dernier <hi rend="i">s</hi> suscrit par <hi rend="i">souz</hi>. La graphie <hi rend="i">soz</hi> est également attestée chez le Copiste 1, mais elle n'apparaît qu'une fois (8.52.4).</p>
+</div>
+</div>
+<div xml:id="separation_mots">
+<head><label>3.</label> Séparation des mots</head>
+<p>Sans tenir compte des différents usages graphiques du manuscrit, nous nous sommes alignés sur l’usage du français contemporain, en transcrivant en un seul mot certaines expressions qui sont soudées dans la langue moderne, comme les relatifs composés. Nous avons en revanche transcrit séparément la conjonction de coordination <hi rend="i">por ce que</hi>.</p>
+<p>En nous alignant sur l’usage du français contemporain, nous avons inséré une apostrophe pour marquer l'élision devant une voyelle pour :
+<list>
+<item>Les articles définis <hi rend="i">le</hi> et <hi rend="i">la</hi> ; </item>
+<item>La préposition <hi rend="i">de</hi> ;</item>
+<item>Le pronom réfléchi <hi rend="i">se</hi> ; </item>
+<item>L'adverbe de négation <hi rend="i">ne</hi> ;</item>
+<item>La conjonction <hi rend="i">que</hi> ;</item>
+<item>Les possessifs  <hi rend="i">ta</hi>  et  <hi rend="i">sa</hi>.</item>
+</list>
+</p>
+<p>Pour tous ces cas de figure, nous signalons que le copiste alterne entre l'usage des formes élidées (graphiées par les deux mots soudés) et des formes pleines (graphiées par les deux mots séparés). Dans le respect de son <hi rend="i">usus scribendi</hi>, lorsque les deux mots sont graphiés séparement, nous n'avons pas introduit d'apostrophe.</p>
+</div>
+<div xml:id="signes_diacritiques">
+<head><label>4.</label> Signes diacritiques</head>
+<p>Nous avons réintroduit :
+<list>
+<item>Les points sur ‹i› et ‹j› selon l’usage du français contemporain ; </item>
+<item>La cédille sous le ‹c› ayant valeur phonétique de /s/ ;</item>
+<item>Les accents aigus sur les /e/ toniques dans les substantifs, les adjectifs, les participes passés et les adverbes se terminant par <hi rend="i">-é</hi> ou par <hi rend="i">-és</hi>, ainsi que pour les adverbes se terminant par <hi rend="i">-és</hi>.</item>
+</list>
+</p>
+<p>L'emploi du tréma a été particulièrement parcimonieux et il a été introduit seulement pour distinguer les homographes (<hi rend="i">pais</hi>, ‘paix’ ≠ <hi rend="i">païs</hi>, ‘pays’) et pour marquer le hiatus entre deux voyelles là où il est resté en français contemporain (le verbe <hi rend="i">oïr</hi> et ses dérivés).</p>
+<p>Par souci d'ergonomie de lecture et d'exploitation numérique du texte, nous avons affecté un accent aigu à la préposition <hi rend="i">à</hi> et aux adverbes <hi rend="i">là</hi> et <hi rend="i">où</hi> afin de les différencier des homographes <hi rend="i">a</hi>(P3 du verbe avoir), <hi rend="i">la</hi> (article) et <hi rend="i">ou</hi> (conjonction de coordination).</p>
+</div>
+<div xml:id="ponctuation">
+<head><label>5.</label> Ponctuation, majuscules et guillemets</head>
+<p>Sans tenir compte des pratiques graphiques scribales, nous avons réintroduit la ponctuation selon l’usage du français contemporain. Nous avons dès lors affecté une majuscule :
+<list>
+<item>Au début de chaque paragraphe ;</item>
+<item>Après un point final de phrase ; </item>
+<item>A l’initiale des noms propres de personne, de lieu et de peuple ;</item>
+<item>Aux <foreign xml:lang="lat">nomina sacra</foreign> ;</item>
+<item>Au début d'un discours direct.</item>
+</list>
+</p>
+</div>
+<div xml:id="Xenismes">
+<head ><label>6.</label>Xénismes</head>
+<p>Les, xénismes, relevant essentiellement du latin,  ont été systématiquement signalés.</p>
+<p>Le fautes de latin ont été corrigées <foreign xml:lang="lat">ope ingenio</foreign> et <foreign xml:lang="lat">ope codicum </foreign>(texte-source latin et autres témoins manuscrits de la trad. fr.). La version scribale fautive a été rejetée en apparat. </p>
+</div>
+<div xml:id="Decor">
+<head><label>7.</label>Décor du manuscrit</head>
+<p>Nous avons signalé les lettres enluminées et les lettrines, sans pour autant les distinguer par des polices ou des tailles différentes. Une note de l'éditeur a été affectée lorsque celles-ci présentent des particularités (taille variable ou encre différente par rapport à l'usage courant) ou des fautes (mauvaise lecture d'une lettrine d'attente).</p>
+<p>Les pieds-de-mouche (¶) et leurs signes d'attente (//) ont été reproduits dans le corps de l'édition car ils contribuent à l'ergonomie du texte.</p>
+</div>
+<div xml:id="Mains">
+<head ><label>8.</label>Changements de main</head>
+<p>Les changements de mains  ont été systématiquement signalés.</p> 
+</div>
+<div xml:id="Structuration_textuelle">
+<head ><label>9.</label>Structuration textuelle et décalage des rubriques par rapport au texte-source latin</head>
+<p>Les rubriques ont été systématiquement signalées. Une note d'élucidation a été affectée lorsque la rubrique est rédigée par une autre main par rapport à la main textuelle principale.</p>
+<p>Le décalage des rubriques par rapport au texte-source latin de  <persName>Gui de Chauliac</persName> (éd. <ref corresp="#keil">G. Keil</ref>) a été signalé en note.</p>
+</div>
+ <div xml:id="Auctoritates">
+<head ><label>10.</label><foreign xml:lang="lat">Auctoritates</foreign></head>
+<p>Toutes les autorités et les ouvrages scientifiques citées dans le texte ont été systématiquement encodées et elles font l'objet d'un index à la fin de l'édition, avec des notes d'élucidation détaillées qui permettent de les identifier.</p>
+</div>
+</div>
+</front>
+<body>
+<div type="transcription" xml:lang="fro">
+<div n="37ra">
+<pb n="37r"/>
+<cb n="a"/>
+<lb n="1"/><p>Cy commence le second livre qui</p>
+<lb n="2"/><l>parle des empostumes, exitures et pu</l>
+<lb n="3"/><l>stules et contient deux doctrines : la</l>
+<lb n="4"/> <l>premiere parle des empostumes, pustu</l>
+<lb n="5"/> <l>les et exitures qui sont es membres simples,</l>
+<lb n="6"/> <l>et la secunde parle des empostumes, pustules </l>
+<lb n="7"/><l><hi rend="ornated_initial" rendition="6l">E</hi>M POST</l>
+<lb n="8"/><l>EUMES</l>
+<lb n="9"/><l> selon son essence est diffinit par<persName></persName>,</l> 
+<lb n="10"/><l> ou premier livre qui se intitule <title><foreign xml:lang="lat">De</foreign></title></l>
+</div>
+<div n="37rb">
+<pb n="37r"/>
+<cb n="b"/>
+<lb n="1"/><!-- N.B. PROBLEME DE MISE EN PAGE : suite de la partie supérieure de la colonne a (ligne 6) dans les lignes 1-6 de la colonne b --><l>et exitures qui sont es membres compost.</l>
+<lb n="2"/> <l>La premiere contient .v. chappitres. </l>
+<lb n="3"/> <l>Le premier est chappitre universel des empo</l>
+<lb n="4"/><l>stumes et des pustules et exitures et com</l>
+<lb n="5"/><l>mencerons à demonstrer quel chose</l>
+<lb n="6"/><l>c'est.</l> <!-- N.B. PROBLEME DE MISE EN PAGE : il faut revenir à la colonne a, partie inférieure (lignes 7-10) -->
+<lb n="7"/><l><title><foreign xml:lang="lat">egritudine et sinthomate</foreign></title>. Et par </l>
+<lb n="8"/><l><persName>Avicene</persName> en son <title>Canon</title>, ou premier li</l>
+<lb n="9"/><l>vre, que c'est une maladie composte</l>
+<lb n="10"/><l>de trois manieres de maladies qui</l>
+<lb n="11"/><l>est <choice><sic>e</sic><corr rend="exp"/></choice>  assemblee en une magnitude. </l>
+<lb n="12"/><l>Ceste diffinicion ci est demoustree</l>
+<lb n="13"/><l>esre faicte par le Consiliateur et par </l><lb n="14"/><l><persName>Albert de Boulogne</persName>, qui ensuit <persName><foreign xml:lang="lat">Galenus</foreign></persName></l>
+</div>
+<div n="37vc">
+<pb n="37v"/>
+<cb n="c"/>
+<lb n="1"/><l>et <persName>Avicene</persName>. Car la dicte diffincion </l>
+<lb n="2"/><l>demonstre son difinit (?) <!-- Question : je ne comprends pas --> et le fait di</l>
+<lb n="3"/><l>ferer de quelconques aultre. Car </l>
+<lb n="4"/> <l>en la dicte diffinicion est dit que em</l>
+<lb n="5"/><l>postume est maladie en lieu de gendre </l>
+<lb n="6"/> <l>et de souverain, pour ce que tout </l>
+<lb n="7"/> <l>empostume est maladie, mais tou</l>
+<lb n="8"/><l>te maladie n'est pas empostume.</l>
+<lb n="9"/> <l>Mais les autre partie qui sont </l>
+<lb n="10"/> <l>mises en la dicte diffinicion, elles y </l>
+<lb n="11"/> <l>sont mises comme differences pour </l>
+<lb n="12"/><l>les autres manieres de composicions </l>
+<lb n="13"/><l> de maladies que <persName>Galien</persName> nomme au </l>
+<lb n="14"/> <l>dit livre. Mais empostumes est</l>
+<lb n="15"/><l>descript par <persName>Galien </persName> par differences </l>
+<lb n="16"/><l>accidentelles, ou livre qui se intitule </l>
+<lb n="17"/><l>le <title><foreign xml:lang="lat">Liber de tumoribus preter natu</foreign></title></l>
+<lb n="18"/><l><title><foreign xml:lang="lat">ram</foreign></title>,  c'est à dire ou livre qui par</l>
+<lb n="19"/><l>le des tumours et enfleures qui </l>
+<lb n="20"/> <l>viennent oultre nature. Ouquel li</l>
+<lb n="21"/><l>vre il voulloit plus manifester au </l>
+<lb n="22"/> <l>sens quelle chose est empostume </l>
+<lb n="23"/> <l>qu'il ne fasoit a l'entendemant quant</l>
+<lb n="24"/><l>il dit : <!-- Question : c'est sans doute encore prématuré d'en parler, mais je préférerais garder les deux points ajoutés par mes soins plutôt que de les générer automatiquement en XSLT, ce qui est possible lorsqu'on utilise l'élément q. Je préfére ainsi car parfois la citation est entre deux lignes (cf. toute fin de la transcription ll. 34-35), donc je crains que l'on ne se retrouve à gérer une profusion de deux points ajoutés automatiquement ! --> <q><foreign xml:lang="lat">quod <!-- Question : les majuscules seront ajoutées directement en XSLT ? --> unum aliquod eorum et cetera</foreign></q>, c'est </l>
+<lb n="25"/><l> à entendre que des maladies qui vi<lb n="26"/>ennent à corps humain, c'est l'une qui</l>
+<lb n="27"/> <l>est apellee entre les autres tumueur </l>
+<lb n="28"/> <l>ou enfleure et non pas pour quel</l>
+<lb n="29"/><l>conques enfleure ou tumuor, mais </l>
+<lb n="30"/><l>pour grande tumour qui yt (?) <!-- Question : je ne comprends pas --> en i</l>
+<lb n="31"/><l>demant à faire les opracions. Et</l>
+<lb n="32"/> <l>celle meisme descripcion il la repe</l>
+<lb n="33"/><l>te et recorde ou .xiij.<hi rend="sup">e</hi> livre de <title>Tera</title></l>
+<lb n="34"/><l><title>pentique</title> par ces parolles cy : <q><foreign xml:lang="lat">Mani</foreign></q></l>
+<lb n="35"/><l><q><foreign xml:lang="lat">festum est quod in tumore et cetera</foreign></q>, c'est </l>
+</div>
+<div n="37vd">
+<pb n="37v"/>
+<cb n="d"/>
+<lb n="1"/> <l>chose manifeste. Que en tumour qui</l>
+<lb n="2"/> <l>est grande les membres laissent ce</l>
+<lb n="3"/><l>qui est selon nature, maiemant se</l>
+<lb n="4"/><l>lon la apparence, car par aventure</l>
+<lb n="5"/><l>premier et principaument peche</l>
+<lb n="6"/><l>la complexion, et aprés peche </l>
+<lb n="7"/><l>la union, et tiercemant peche </l>
+<lb n="8"/> <l>la composicion, si comme le dit le Consilia</l>
+<lb n="9"/><l>teur. <!-- Question : de nouveau le Consiliateur, même autorité que plus haut, à identifier, encore une fois j'hésite à employer l'élément persName --> Et pour ce est il escript au </l>
+<lb n="10"/><l>.xiij.<hi rend="sup">e</hi>  de (?) <!-- Question : problème de lecture --> que la male</l>
+<lb n="11"/><l>complexion n'en venchoit pas suele</l>
+<lb n="12"/><l>mant le membre de sa qualité natu</l>
+<lb n="13"/><l>relle, se on ne volloit appeller toutes</l>
+<lb n="14"/><l>disposicions, qualités, si comme fait</l>
+<lb n="15"/><l> (?) <!-- Question : autorité à identifier --> en plusieurs lieux, laquelle de</l>
+<lb n="16"/><l>scripcion declaire perfectemant<persName>Ha</persName></l>
+<lb n="17"/><l><persName>liabas</persName> en le .viij.<hi rend="sup">e</hi> (?) <!-- Question : je ne comprends pas --> mon de la pre</l>
+<lb n="18"/><l>miere partie de son livre qui se inti</l>
+<lb n="19"/><l>tule <title><foreign xml:lang="lat">De regali disposicione</foreign></title>, où il dit </l>
+<lb n="20"/><l>ausi : <q>Emposture est tumour ou</q></l>
+<lb n="21"/><l><q>enfleure non pas naturelle en la</q></l>
+<lb n="22"/><l><q>quelle tumour aucune matiere qui</q></l>
+<lb n="23"/><l> <q>remplit et estend est assenble.</q> Tu</l><!-- Question : je ne sais pas où la citation se termine, je dirais à a"assenble" ad sensum, mais je ne suis pas sûre. à vérifier. -->
+<lb n="24"/><l>mour, se elle est grande, elle est mis<choice><sic>e</sic><corr/></choice></l>
+<lb n="25"/><l>pour genre ; et se elle est petite,</l>
+<lb n="26"/><l>elle est mise pour accident, si comme </l>
+<lb n="27"/><l>il est escript ou premier livre <title><foreign xml:lang="lat">De morbo</foreign></title>.</l>
+<lb n="28"/><l>Mais quant est de present, je ne</l>
+<lb n="29"/><l>vueil pas declarer comme une mala<lb n="30"/>die peult estre dicte simple et compo</l>
+<lb n="31"/><l>ste ou consimile ou organique, et</l>
+<lb n="32"/><l>comme elle peult estre dicte cause et</l>
+<lb n="33"/><l>effet, gendre et espesse, ou difference</l>
+<lb n="34"/><l>et accident, selon diversses conside</l>
+<lb n="35"/><l>racions, car c'est chose logisi...? <!-- Question : je ne comprends pas le dernier mot ! :-) --></l>
+</div>
+</div>
+</body>
+<back>
+<div xml:id="Index_auctoritates">
+<head>Autorités scientifiques citées dans le feuillet 37rv</head>
+<note xml:id="chirurgia_magna_trad_fr_Montpellier_Bibliotheque_interuniversitaire_section_de_Medecine_184_H_fol_37_note_1"><persName><foreign xml:lang="fro">Albert de Boulogne</foreign></persName> : </note> <!-- Question : que faire quand je ne trouve pas l'autorité dans ISO et VIAF ? --><!-- ST: encore à resoudre -->
+<note xml:id="chirurgia_magna_trad_fr_Montpellier_Bibliotheque_interuniversitaire_section_de_Medecine_184_H_fol_37_note_2"><persName corresp="http://isni.org/isni/0000000121430876"><foreign xml:lang="fro">Avicene</foreign></persName> : Avicenne, forme courante française pour Ibn Sīnā, Abū ʿAlī Al-Ḥusayn ibn ʿAbd Allâh (980-1037), philosophe et médecin. Auteur de plusieurs oeuvres scientifiques et notamment médicales qui font référence au Moyen Âge. Ses œuvres principales sont l'encyclopédie médicale Qanûn (« Canon de la médecine ») et ses deux encyclopédies scientifiques le Livre de la guérison (de l'âme) et Danesh-e Nâma (« Livre de science »).</note>
+<note xml:id="chirurgia_magna_trad_fr_Montpellier_Bibliotheque_interuniversitaire_section_de_Medecine_184_H_fol_37_note_3"><persName corresp="http://isni.org/isni/0000000121430876"><foreign xml:lang="fro">Galien</foreign></persName> : Galien (en grec ancien : Galīnós / Galênós ; en latin : Claudius Galenus) est un médecin grec de l'Antiquité qui exerça à Pergame et à Rome où il soigna plusieurs empereurs. Dans le feuillet édité, il est évoqué également sous la forme latine <foreign xml:lang="lat">Galenus</foreign>.</note>
+<!-- ST: http://isni.org/isni/0000000121430876 = Avicenna; here Galen: ISNI https://isni.org/isni/0000000121302401; VIAF https://viaf.org/viaf/44299175/ -->
+<note xml:id="chirurgia_magna_trad_fr_Montpellier_Bibliotheque_interuniversitaire_section_de_Medecine_184_H_fol_37_note_4"><persName><foreign xml:lang="fro">Haliabas</foreign></persName> : <!-- Question : autre autorité que je n'ai pas trouvée + reste pour l'instant en suspens le Consiliateur -->.</note>
+</div>
+</back>
+</text>
+</TEI>
